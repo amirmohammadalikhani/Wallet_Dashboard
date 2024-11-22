@@ -1,0 +1,46 @@
+.new-member-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    button {
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 1.5rem;
+        cursor: pointer;
+
+        .member-icon {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+
+.new-member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 10rem;
+
+    .member-name {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .member-job {
+        font-size: 13px;
+        color: gray;
+        font-weight: 300;
+    }
+}

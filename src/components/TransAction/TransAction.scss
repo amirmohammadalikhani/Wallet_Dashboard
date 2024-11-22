@@ -1,0 +1,38 @@
+.trans-td {
+    padding: 10px 0;
+}
+
+.trans-profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.trans-date, .trans-amount {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.trans-button {
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px 5px;
+}
+
+.trans-button.Approved {
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+
+.trans-button.Declined {
+    color: #d95087;
+    background-color: #fff0f1;    
+}
+
+.trans-button.Pending {
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}
